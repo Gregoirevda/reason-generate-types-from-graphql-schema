@@ -1,0 +1,14 @@
+opam-version: "1.2"
+name: "reason-generate-types-from-graphql-schema"
+version: "0.1"
+maintainer: "greg <greg@hackages.io>"
+authors: "greg <greg@hackages.io>"
+build: [
+  ["./configure" "--prefix=%{prefix}%"]
+  [make]
+]
+install: [make "install"]
+remove: ["ocamlfind" "remove" "reason-generate-types-from-graphql-schema"]
+depends: [
+  "ocamlfind" {build}
+]
