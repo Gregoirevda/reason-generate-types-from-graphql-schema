@@ -2,10 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e281361-0eef-49bf-bcdc-6418ec817117" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_tags" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GraphQL.ml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.ml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/introspectionQuery.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/_digests" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/_log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/myocamlbuild" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/myocamlbuild.cmi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/myocamlbuild.cmx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/myocamlbuild.ml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/myocamlbuild.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/ocamlc.where" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.cmi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.cmo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.cmx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.ml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.ml.depends" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.cmi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.cmo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.cmx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.ml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.ml.depends" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.cmi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.cmo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.cmx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.ml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.ml.depends" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.native" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.o" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opam" afterPath="$PROJECT_DIR$/opam" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,18 +49,31 @@
       <file leaf-file-name="opam" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opam">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.ml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="420">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,18 +107,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/descr" />
         <option value="$PROJECT_DIR$/reason-generate-types-from-graphql-schema.0.1/descr" />
         <option value="$PROJECT_DIR$/reason-generate-types-from-graphql-schema.0.1/opam" />
         <option value="$PROJECT_DIR$/src/introspectionQuery.ml" />
-        <option value="$PROJECT_DIR$/opam" />
         <option value="$PROJECT_DIR$/myocamlbuild.ml" />
         <option value="$PROJECT_DIR$/.merlin" />
         <option value="$PROJECT_DIR$/src/introspectionQuery.json" />
         <option value="$PROJECT_DIR$/src/GraphQL.ml" />
         <option value="$PROJECT_DIR$/_tags" />
         <option value="$PROJECT_DIR$/src/index.ml" />
+        <option value="$PROJECT_DIR$/opam" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -247,12 +285,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505394572402</updated>
-      <workItem from="1505394573599" duration="30995000" />
+      <workItem from="1505394573599" duration="31201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30995000" />
+    <option name="totallyTimeSpent" value="31201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="572" y="23" width="1089" height="993" extended-state="0" />
@@ -296,17 +334,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/url">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -379,14 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opam">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_tags">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -397,9 +416,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.ml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opam">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
