@@ -4,8 +4,7 @@ version: "0.1"
 maintainer: "greg <greg@hackages.io>"
 authors: "greg <greg@hackages.io>"
 build: [
-  ["./configure" "--prefix=%{prefix}%"]
-  [make]
+  ["ocamlbuild" "src/index.native"]
 ]
 install: [make "install"]
 remove: ["ocamlfind" "remove" "reason-generate-types-from-graphql-schema"]

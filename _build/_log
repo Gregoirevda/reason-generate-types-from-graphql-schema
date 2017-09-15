@@ -1,0 +1,24 @@
+### Starting build.
+# Target: src/index.ml.depends, tags: { extension:ml, file:src/index.ml, ocaml, ocamldep, package(cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core), quiet, thread, traverse }
+ocamlfind ocamldep -package 'cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core' -modules src/index.ml > src/index.ml.depends
+# Target: src/GraphQL.ml.depends, tags: { extension:ml, file:src/GraphQL.ml, ocaml, ocamldep, package(cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core), quiet, thread, traverse }
+ocamlfind ocamldep -package 'cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core' -modules src/GraphQL.ml > src/GraphQL.ml.depends # cached
+# Target: src/GraphQL.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/GraphQL.cmo, file:src/GraphQL.ml, implem, ocaml, package(cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core), quiet, thread, traverse }
+ocamlfind ocamlc -c -thread -package 'cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core' -I src -o src/GraphQL.cmo src/GraphQL.ml # cached
+# Target: src/index.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/index.cmo, file:src/index.ml, implem, ocaml, package(cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core), quiet, thread, traverse }
+ocamlfind ocamlc -c -thread -package 'cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core' -I src -o src/index.cmo src/index.ml
++ ocamlfind ocamlc -c -thread -package 'cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core' -I src -o src/index.cmo src/index.ml
+File "src/index.ml", line 24, characters 6-19:
+Warning 26: unused variable graphQLSchema.
+# Target: src/GraphQL.cmx, tags: { compile, extension:cmx, extension:ml, file:src/GraphQL.cmx, file:src/GraphQL.ml, implem, native, ocaml, package(cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core), quiet, thread, traverse }
+ocamlfind ocamlopt -c -thread -package 'cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core' -I src -o src/GraphQL.cmx src/GraphQL.ml # cached
+# Target: src/index.cmx, tags: { compile, extension:cmx, extension:ml, file:src/index.cmx, file:src/index.ml, implem, native, ocaml, package(cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core), quiet, thread, traverse }
+ocamlfind ocamlopt -c -thread -package 'cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core' -I src -o src/index.cmx src/index.ml
++ ocamlfind ocamlopt -c -thread -package 'cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core' -I src -o src/index.cmx src/index.ml
+File "src/index.ml", line 24, characters 6-19:
+Warning 26: unused variable graphQLSchema.
+# Target: src/index.native, tags: { dont_link_with, extension:native, file:src/index.native, link, native, ocaml, package(cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core), program, quiet, thread, traverse }
+ocamlfind ocamlopt -linkpkg -thread -package 'cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core' src/GraphQL.cmx src/index.cmx -o src/index.native
++ ocamlfind ocamlopt -linkpkg -thread -package 'cohttp, lwt, lwt.unix, cohttp.lwt, Yojson, Core' src/GraphQL.cmx src/index.cmx -o src/index.native
+ld: warning: directory not found for option '-L/opt/local/lib'
+# Compilation successful.
