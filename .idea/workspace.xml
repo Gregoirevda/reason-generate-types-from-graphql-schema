@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e281361-0eef-49bf-bcdc-6418ec817117" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/_digests" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/_log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/myocamlbuild" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/myocamlbuild.cmi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/myocamlbuild.cmx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/myocamlbuild.ml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/myocamlbuild.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/ocamlc.where" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.cmi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.cmo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.cmx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.ml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.ml.depends" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/GraphQL.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.cmi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.cmo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.cmx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.ml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.ml.depends" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/IntrospectionQuery.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.cmi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.cmo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.cmx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.ml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.ml.depends" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.native" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_build/src/index.o" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opam" afterPath="$PROJECT_DIR$/opam" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,15 +28,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="105">
-                <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+                <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.ml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/index.ml" />
         <option value="$PROJECT_DIR$/opam" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -285,12 +268,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505394572402</updated>
-      <workItem from="1505394573599" duration="31201000" />
+      <workItem from="1505394573599" duration="31295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31201000" />
+    <option name="totallyTimeSpent" value="31295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="572" y="23" width="1089" height="993" extended-state="0" />
@@ -417,7 +400,7 @@
     <entry file="file://$PROJECT_DIR$/src/index.ml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -434,10 +417,18 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="105">
-            <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
