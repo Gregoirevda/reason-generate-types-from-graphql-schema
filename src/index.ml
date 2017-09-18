@@ -40,15 +40,15 @@ let filterCustomObjectTypes types =
 
 let mapToReasonType types =
   let open Yojson.Basic.Util in
-  List.map (fun customObjectType ->
-    let name = member "name" customObjectType |> to_string in
+  List.rev_map (fun customObjectType ->
+    let name = member "name" customObjectType |> to_string |> String.uncapitalize in
     let jsonFields = member "fields" customObjectType |> to_list in
     let fields = List.map (fun field ->
       let fieldName = member "name" field |> to_string in
       "\t" ^ fieldName ^ ": " ^ (member "type" field |> member "name" |> to_string)
     ) jsonFields in
     let fieldsString = String.concat "\n" fields in
-    "type " ^ name ^ " = {\n" ^ fieldsString ^ "\n}\n"
+    "type " ^ name ^ " = {\n" ^ fieldsString ^ "\n};\n"
   ) types
 
 let getReasonTypes graphQLSchema =
