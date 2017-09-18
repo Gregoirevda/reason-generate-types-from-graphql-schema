@@ -6,11 +6,12 @@ authors: "greg <greg@hackages.io>"
 build: [
   ["ocamlbuild -r -use-ocamlfind  src/index.native"]
 ]
-install: [make "install"]
+tags: ["reasonml" "graphql"]
+install: ["./index.native"]
 remove: ["ocamlfind" "remove" "reason-generate-types-from-graphql-schema"]
 depends: [
-  "ocamlfind" {build}
   "ocamlbuild" {build}
+  "ocamlfind" {build}
   "cohttp" {build}
   "lwt" {build}
   "lwt.unix" {build}
