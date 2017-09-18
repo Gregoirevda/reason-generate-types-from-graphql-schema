@@ -7,14 +7,7 @@ build: [
   ["ocamlbuild -r -use-ocamlfind  src/index.native"]
 ]
 tags: ["reasonml" "graphql"]
-install: ["./index.native"]
-remove: ["ocamlfind" "remove" "reason-generate-types-from-graphql-schema"]
 depends: [
   "ocamlbuild" {build}
   "ocamlfind" {build}
-  "cohttp" {build}
-  "lwt" {build}
-  "lwt.unix" {build}
-  "cohttp.lwt" {build}
-  "Yojson" {build}
 ]

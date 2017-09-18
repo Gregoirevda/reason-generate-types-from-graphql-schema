@@ -1,2 +1,2 @@
-true: package(cohttp, lwt, lwt.unix, cohttp.lwt, Yojson)
+true: package(cohttp.lwt, Yojson)
 true: thread
