@@ -10,4 +10,10 @@ install: [make "install"]
 remove: ["ocamlfind" "remove" "reason-generate-types-from-graphql-schema"]
 depends: [
   "ocamlfind" {build}
+  "ocamlbuild" {build}
+  "cohttp" {build}
+  "lwt" {build}
+  "lwt.unix" {build}
+  "cohttp.lwt" {build}
+  "Yojson" {build}
 ]
