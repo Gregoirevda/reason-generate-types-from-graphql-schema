@@ -1,5 +1,0 @@
-Generate Reason types from a GraphQL schema
-
-This package will generate Reason types from a remote GraphQL API.
-By sending an introspection query, it will get the schema json and from there, generate the typings.
-
