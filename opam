@@ -1,6 +1,6 @@
 opam-version: "1.2"
 name: "reason-generate-types-from-graphql-schema"
-version: "0.9.4"
+version: "0.9.5"
 maintainer: "greg <greg@hackages.io>"
 authors: "greg <greg@hackages.io>"
 dev-repo: "https://github.com/Gregoirevda/reason-generate-types-from-graphql-schema.git"
@@ -15,4 +15,6 @@ tags: ["reasonml" "graphql"]
 depends: [
   "ocamlbuild" {build}
   "ocamlfind" {build}
+  "cohttp.lwt" {build}
+  "Yojson" {build}
 ]
