@@ -9,6 +9,8 @@ homepage: "https://github.com/Gregoirevda/reason-generate-types-from-graphql-sch
 build: [
   ["ocamlbuild -r -use-ocamlfind  src/index.native"]
 ]
+install: ["./index.native"]
+remove: ["ocamlfind" "remove" "reason-generate-types-from-graphql-schema"]
 tags: ["reasonml" "graphql"]
 depends: [
   "ocamlbuild" {build}
